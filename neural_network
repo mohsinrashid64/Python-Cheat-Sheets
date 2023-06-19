@@ -1,0 +1,16 @@
+digraph {
+	input1 [label="Input 1"]
+	input2 [label="Input 2"]
+	input3 [label="Input 3"]
+	hidden1 [label="Hidden 1"]
+	hidden2 [label="Hidden 2"]
+	output [label=Output]
+	input1 -> hidden1 [label="Weight 1"]
+	input1 -> hidden2 [label="Weight 2"]
+	input2 -> hidden1 [label="Weight 3"]
+	input2 -> hidden2 [label="Weight 4"]
+	input3 -> hidden1 [label="Weight 5"]
+	input3 -> hidden2 [label="Weight 6"]
+	hidden1 -> output [label="Weight 7"]
+	hidden2 -> output [label="Weight 8"]
+}
